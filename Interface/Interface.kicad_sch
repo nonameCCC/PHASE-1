@@ -2080,27 +2080,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oscillator:SiT8008xx-8x-xxS"
+		(symbol "Oscillator:KC2520Z"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 4.064 8.89 0)
+				(at 2.54 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SiT8008xx-8x-xxS"
-				(at 12.446 6.858 0)
+			(property "Value" "KC2520Z"
+				(at 6.35 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_7.0x5.0mm"
+			(property "Footprint" "Oscillator:Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.8432MHz ~ 125MHz Crystal Oscillator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2109,7 +2127,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet"
+			(property "ki_keywords" "xo"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2118,7 +2136,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 7.0x5.0mm (with standby pin)"
+			(property "ki_fp_filters" "Oscillator*SMD*Kyocera*KC2520Z*2.5x2.0mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2127,28 +2145,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Mems"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*PQFN*7.0x5.0mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SiT8008xx-8x-xxS_0_1"
+			(symbol "KC2520Z_0_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2157,10 +2157,12 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "KC2520Z_1_1"
 				(polyline
 					(pts
-						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
-						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
+						(xy 1.778 2.032) (xy 2.54 2.032) (xy 2.54 3.302) (xy 3.302 3.302) (xy 3.302 2.032) (xy 4.064 2.032)
+						(xy 4.064 3.302) (xy 4.826 3.302) (xy 4.826 2.032)
 					)
 					(stroke
 						(width 0)
@@ -2170,12 +2172,10 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "SiT8008xx-8x-xxS_1_1"
 				(pin input line
-					(at -7.62 0 0)
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "~{ST}"
+					(name "INH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2193,7 +2193,7 @@
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
-					(name "Vdd"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2227,9 +2227,9 @@
 					)
 				)
 				(pin output line
-					(at 7.62 0 180)
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "OUT"
+					(name "CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5514,7 +5514,7 @@
 		(uuid "1a459493-9574-472b-8e9f-8ee416fbd08b")
 	)
 	(junction
-		(at 227.33 144.78)
+		(at 229.87 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b3f2c1-76ec-4ca2-85fa-3b64e555ac73")
@@ -5892,7 +5892,7 @@
 		(uuid "f3e3b1ce-2955-44fc-a136-087776cc1967")
 	)
 	(junction
-		(at 279.4 144.78)
+		(at 281.94 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcfd7de3-85a0-42b6-a6ff-83ec631be35c")
@@ -5937,7 +5937,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 157.48) (xy 279.4 157.48)
+			(xy 269.24 157.48) (xy 281.94 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6307,7 +6307,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 144.78) (xy 276.86 144.78)
+			(xy 281.94 144.78) (xy 279.4 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6337,7 +6337,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 144.78) (xy 227.33 147.32)
+			(xy 229.87 144.78) (xy 229.87 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6607,7 +6607,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 157.48) (xy 279.4 154.94)
+			(xy 281.94 157.48) (xy 281.94 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6847,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 144.78) (xy 279.4 144.78)
+			(xy 284.48 144.78) (xy 281.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6947,7 +6947,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 157.48) (xy 227.33 157.48)
+			(xy 217.17 157.48) (xy 229.87 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7184,6 +7184,16 @@
 			(type default)
 		)
 		(uuid "755dda38-d58e-4a1c-80fa-1892e870d537")
+	)
+	(wire
+		(pts
+			(xy 35.56 270.51) (xy 33.02 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fb569d-d24f-45f3-9ef5-103fdbf5f164")
 	)
 	(wire
 		(pts
@@ -7477,7 +7487,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 144.78) (xy 227.33 144.78)
+			(xy 232.41 144.78) (xy 229.87 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7527,7 +7537,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 144.78) (xy 279.4 147.32)
+			(xy 281.94 144.78) (xy 281.94 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7647,7 +7657,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 144.78) (xy 224.79 144.78)
+			(xy 229.87 144.78) (xy 227.33 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7917,7 +7927,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 157.48) (xy 227.33 154.94)
+			(xy 229.87 157.48) (xy 229.87 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8204,6 +8214,16 @@
 			(type default)
 		)
 		(uuid "da426aa9-30fc-4a89-9c9e-62240442d9fe")
+	)
+	(wire
+		(pts
+			(xy 33.02 270.51) (xy 33.02 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da771f72-6009-4956-bf97-fbef5c495154")
 	)
 	(wire
 		(pts
@@ -8889,7 +8909,7 @@
 	)
 	(global_label "OSC_48_EN"
 		(shape input)
-		(at 261.62 144.78 180)
+		(at 259.08 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8899,7 +8919,7 @@
 		)
 		(uuid "93b0a055-2218-41e2-9c71-12f5aeca5bd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.9911 144.78 0)
+			(at 245.4511 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,7 +8997,7 @@
 	)
 	(global_label "OSC_441_EN"
 		(shape input)
-		(at 209.55 144.78 180)
+		(at 207.01 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8987,7 +9007,7 @@
 		)
 		(uuid "b323c46f-fa87-4ecc-9863-12964e4e11b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.7116 144.78 0)
+			(at 192.1716 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +9019,7 @@
 	)
 	(global_label "OSC_441"
 		(shape input)
-		(at 229.87 144.78 0)
+		(at 232.41 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9009,7 +9029,7 @@
 		)
 		(uuid "b86c7d8f-1260-4412-9ab7-ed12aa8f2654")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.2613 144.78 0)
+			(at 243.8013 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9151,7 @@
 	)
 	(global_label "OSC_48"
 		(shape input)
-		(at 281.94 144.78 0)
+		(at 284.48 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9141,7 +9161,7 @@
 		)
 		(uuid "e122221c-7b62-4be6-8e80-ff667ed5688d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.1218 144.78 0)
+			(at 294.6618 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12807,80 +12827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oscillator:SiT8008xx-8x-xxS")
-		(at 269.24 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "476d0971-ae72-4016-b78c-0cf3431529c5")
-		(property "Reference" "Y3"
-			(at 284.48 138.3598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SiT8008xx-8x-xxS"
-			(at 284.48 140.8998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_7.0x5.0mm"
-			(at 269.24 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet"
-			(at 269.24 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 7.0x5.0mm (with standby pin)"
-			(at 269.24 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74b69548-5679-4999-827f-9522596e9a47")
-		)
-		(pin "4"
-			(uuid "8d5e5dff-dc85-43e7-8b6b-d36fe966cc02")
-		)
-		(pin "1"
-			(uuid "7daf7bc6-42b9-4485-a5b5-172826775d72")
-		)
-		(pin "3"
-			(uuid "45f5bdd0-87f1-4075-8d82-aa58f29d4781")
-		)
-		(instances
-			(project "Interface"
-				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636"
-					(reference "Y3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 281.94 219.71 0)
 		(unit 1)
@@ -15976,7 +15922,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 227.33 151.13 0)
+		(at 229.87 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15984,7 +15930,7 @@
 		(dnp no)
 		(uuid "98b38f8b-658f-4ee9-8d22-3909ec85071c")
 		(property "Reference" "C38"
-			(at 229.87 149.86 0)
+			(at 232.41 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15993,7 +15939,7 @@
 			)
 		)
 		(property "Value" "5p"
-			(at 229.87 152.4 0)
+			(at 232.41 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16002,7 +15948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.2952 154.94 0)
+			(at 230.8352 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16011,7 +15957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 151.13 0)
+			(at 229.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16020,7 +15966,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 227.33 151.13 0)
+			(at 229.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16762,6 +16708,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Oscillator:KC2520Z")
+		(at 269.24 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afb006f4-a4df-43b4-863b-4a994027f011")
+		(property "Reference" "Y3"
+			(at 283.21 138.3598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KC2520Z"
+			(at 283.21 140.8998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm"
+			(at 273.05 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf"
+			(at 273.05 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8432MHz ~ 125MHz Crystal Oscillator"
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c09ae10f-a494-49a6-aa6d-8d0f134703aa")
+		)
+		(pin "1"
+			(uuid "849ce216-b5f2-469f-961e-525ba09f89aa")
+		)
+		(pin "3"
+			(uuid "a789300e-423b-47dc-a22a-f9d76f92d4e2")
+		)
+		(pin "2"
+			(uuid "5921b218-8606-4d93-9de1-e77c7fe74ab9")
+		)
+		(instances
+			(project "Interface"
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636"
+					(reference "Y3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 111.76 0)
 		(unit 1)
@@ -17443,6 +17463,147 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 273.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6740a1-493f-448e-b5c9-3812c7ca6dd3")
+		(property "Reference" "TP3"
+			(at 35.56 275.0819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.56 277.6219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 27.94 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b02ead58-0446-4f92-b3bb-5fbeee9c0ad8")
+		)
+		(instances
+			(project "Interface"
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:KC2520Z")
+		(at 217.17 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e01cb713-0464-4d9a-b832-6a86f0e46c3c")
+		(property "Reference" "Y2"
+			(at 231.14 138.3598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KC2520Z"
+			(at 231.14 140.8998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8432MHz ~ 125MHz Crystal Oscillator"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d0d63612-03e0-493f-86b4-8e768b1fb999")
+		)
+		(pin "1"
+			(uuid "a763aee8-fffd-4368-85bc-905318fe2775")
+		)
+		(pin "3"
+			(uuid "66efe61d-7516-4e3f-8971-79d2822e0d00")
+		)
+		(pin "2"
+			(uuid "40f1c6cc-354b-49dc-a786-d593f7c3646b")
+		)
+		(instances
+			(project ""
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 217.17 0)
 		(unit 1)
@@ -17569,80 +17730,6 @@
 			(project "Interface"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oscillator:SiT8008xx-8x-xxS")
-		(at 217.17 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e33bdd4a-f3f0-414c-8fa3-d2cd08c5bc26")
-		(property "Reference" "Y2"
-			(at 232.41 138.3598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SiT8008xx-8x-xxS"
-			(at 232.41 140.8998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_7.0x5.0mm"
-			(at 217.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet"
-			(at 217.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 7.0x5.0mm (with standby pin)"
-			(at 217.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efbb716e-1a10-488b-9739-fc0d6df1fa09")
-		)
-		(pin "4"
-			(uuid "63567678-5114-448f-b464-3f0ba759deb1")
-		)
-		(pin "1"
-			(uuid "bda06d6d-5f59-40fa-86f0-99d5b61467f3")
-		)
-		(pin "3"
-			(uuid "01206ef3-2469-4a9b-8d8b-32f3245e2027")
-		)
-		(instances
-			(project ""
-				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -18851,7 +18938,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 279.4 151.13 0)
+		(at 281.94 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18859,7 +18946,7 @@
 		(dnp no)
 		(uuid "fd391762-62d3-4c36-9d11-9c88fe697196")
 		(property "Reference" "C40"
-			(at 281.94 149.86 0)
+			(at 284.48 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18868,7 +18955,7 @@
 			)
 		)
 		(property "Value" "5p"
-			(at 281.94 152.4 0)
+			(at 284.48 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18877,7 +18964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.3652 154.94 0)
+			(at 282.9052 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18886,7 +18973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 279.4 151.13 0)
+			(at 281.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18895,7 +18982,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 279.4 151.13 0)
+			(at 281.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
