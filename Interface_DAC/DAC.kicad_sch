@@ -730,167 +730,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1374,6 +1213,12 @@
 		(uuid "18c673ac-8b6a-4c48-b8d3-79868c3a2199")
 	)
 	(junction
+		(at 83.82 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20175763-bb49-4a85-a489-1db3bb170c8f")
+	)
+	(junction
 		(at 114.3 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1416,6 +1261,18 @@
 		(uuid "597eec90-31a0-422c-8caf-53e769570ce9")
 	)
 	(junction
+		(at 83.82 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69ddad3c-138f-41c0-b40e-28b508bfec04")
+	)
+	(junction
+		(at 83.82 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ee7d95c-6f82-42d5-b8d8-39353d4f7bfb")
+	)
+	(junction
 		(at 105.41 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1426,6 +1283,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "773897c5-cc48-4c84-be12-0d88d68cdf81")
+	)
+	(junction
+		(at 83.82 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1e107b4-3c6d-436a-81bc-489b204cce98")
 	)
 	(junction
 		(at 124.46 52.07)
@@ -1440,6 +1303,12 @@
 		(uuid "b365c680-0e61-45cc-b660-710ed287f612")
 	)
 	(junction
+		(at 83.82 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b49d78bf-0cc2-4b4b-b1d4-de35097c9642")
+	)
+	(junction
 		(at 114.3 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1451,11 +1320,15 @@
 		(color 0 0 0 0)
 		(uuid "e6316c03-1c24-4b4f-8572-556b4e3fb89f")
 	)
-	(junction
-		(at 124.46 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9c1ba6e-12c5-412a-bed3-dff861f61ebc")
+	(wire
+		(pts
+			(xy 83.82 130.81) (xy 83.82 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b5fe43-a279-4fdc-a3d9-ce1eb890a61e")
 	)
 	(wire
 		(pts
@@ -1476,6 +1349,16 @@
 			(type default)
 		)
 		(uuid "0867d1ed-163b-493c-81e3-2368da8fb9a7")
+	)
+	(wire
+		(pts
+			(xy 83.82 120.65) (xy 83.82 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8dd187-869c-4ea3-b9f3-074d50c18c7d")
 	)
 	(wire
 		(pts
@@ -1536,6 +1419,16 @@
 			(type default)
 		)
 		(uuid "1c289771-695d-46f4-8016-a9a93add8611")
+	)
+	(wire
+		(pts
+			(xy 83.82 123.19) (xy 86.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5191f7-2d71-4796-8f9a-2a2f369fc09d")
 	)
 	(wire
 		(pts
@@ -1609,6 +1502,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 128.27) (xy 86.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371ed326-4f81-4bf0-9082-08be2d728e66")
+	)
+	(wire
+		(pts
 			(xy 114.3 64.77) (xy 114.3 62.23)
 		)
 		(stroke
@@ -1636,6 +1539,16 @@
 			(type default)
 		)
 		(uuid "405802ec-619b-4f98-8b3f-d4a24dec4336")
+	)
+	(wire
+		(pts
+			(xy 86.36 130.81) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451c6a6a-39fc-480e-a421-36dbe59bde8a")
 	)
 	(wire
 		(pts
@@ -1706,16 +1619,6 @@
 			(type default)
 		)
 		(uuid "5d38df51-1968-4496-8826-a62c1afef476")
-	)
-	(wire
-		(pts
-			(xy 124.46 110.49) (xy 124.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f94a724-e7ea-4fae-979b-347b98580f1a")
 	)
 	(wire
 		(pts
@@ -1799,6 +1702,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 138.43) (xy 86.36 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e07f8f3-50ea-4fef-a94e-b5603685ef3f")
+	)
+	(wire
+		(pts
 			(xy 88.9 90.17) (xy 88.9 92.71)
 		)
 		(stroke
@@ -1806,6 +1719,26 @@
 			(type default)
 		)
 		(uuid "7f55207d-01e9-4c4a-96bc-0773acbea77d")
+	)
+	(wire
+		(pts
+			(xy 83.82 125.73) (xy 83.82 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82924bd5-edf2-4c63-a9c1-10766b06d84e")
+	)
+	(wire
+		(pts
+			(xy 83.82 125.73) (xy 86.36 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839f20fe-db91-4897-908c-0c52fa4026b9")
 	)
 	(wire
 		(pts
@@ -1829,6 +1762,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 133.35) (xy 83.82 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a788833-57c3-480c-8998-96ec16076d73")
+	)
+	(wire
+		(pts
 			(xy 132.08 138.43) (xy 134.62 138.43)
 		)
 		(stroke
@@ -1849,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 107.95) (xy 124.46 107.95)
+			(xy 121.92 107.95) (xy 127 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1859,13 +1802,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 107.95) (xy 127 107.95)
+			(xy 71.12 135.89) (xy 71.12 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "988a71a8-002f-48c2-b722-042fa1431e27")
+		(uuid "91f1772c-0e1d-4ce6-854d-656ff2af1952")
 	)
 	(wire
 		(pts
@@ -1879,6 +1822,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 138.43) (xy 73.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2cd769-b09d-418e-86e9-861a88256969")
+	)
+	(wire
+		(pts
 			(xy 127 107.95) (xy 127 105.41)
 		)
 		(stroke
@@ -1886,6 +1839,26 @@
 			(type default)
 		)
 		(uuid "ac7f0ec2-878e-4b69-9c5d-fe9b5a3711a2")
+	)
+	(wire
+		(pts
+			(xy 83.82 133.35) (xy 83.82 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e96d76-05a1-4f05-85b4-0ac9d3219125")
+	)
+	(wire
+		(pts
+			(xy 137.16 105.41) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45213c3-efe0-4404-b605-535f98b97bfa")
 	)
 	(wire
 		(pts
@@ -1979,6 +1952,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 95.25) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8bee46-5529-42de-bdef-285fcbf20a13")
+	)
+	(wire
+		(pts
 			(xy 124.46 49.53) (xy 124.46 52.07)
 		)
 		(stroke
@@ -1999,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 110.49) (xy 124.46 110.49)
+			(xy 121.92 110.49) (xy 137.16 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2039,6 +2022,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 120.65) (xy 83.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62cabd6-1bb0-44db-833b-7254dda19ba5")
+	)
+	(wire
+		(pts
 			(xy 43.18 110.49) (xy 66.04 110.49)
 		)
 		(stroke
@@ -2069,6 +2062,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 128.27) (xy 83.82 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66378b4-4f80-40ee-ad48-ab1000c4d484")
+	)
+	(wire
+		(pts
 			(xy 83.82 107.95) (xy 86.36 107.95)
 		)
 		(stroke
@@ -2086,6 +2089,16 @@
 			(type default)
 		)
 		(uuid "fd574674-70e5-4031-9992-b6687ce550c0")
+	)
+	(wire
+		(pts
+			(xy 83.82 133.35) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febaa24c-3b2b-4d55-83cb-6b788d3d9c97")
 	)
 	(global_label "I2S_LRCK"
 		(shape input)
@@ -2131,7 +2144,7 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "I2S_SCK"
 		(shape input)
 		(at 43.18 107.95 180)
 		(fields_autoplaced yes)
@@ -2185,7 +2198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ddb7c45-39e9-47db-a549-c24b13692620")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 69.85 104.14 90)
 			(effects
 				(font
@@ -2228,6 +2241,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 69.85 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 69.85 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 69.85 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6af83af-9d20-4ee2-af4e-6e61ce0beff0")
 		)
@@ -2237,14 +2277,14 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 88.9 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2253,8 +2293,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1192ea92-dab2-4f74-abd8-116ec4e3c874")
-		(property "Reference" "C50"
-			(at 92.71 63.8809 0)
+		(property "Reference" "C42"
+			(at 92.71 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2303,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 92.71 66.4209 0)
+			(at 92.71 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.8652 69.85 0)
 			(effects
 				(font
@@ -2289,7 +2329,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -2307,7 +2374,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "C50")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -2323,7 +2390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14937533-e8f0-428e-b9eb-80b89f37efe3")
-		(property "Reference" "R12"
+		(property "Reference" "R5"
 			(at 49.53 109.22 90)
 			(effects
 				(font
@@ -2366,6 +2433,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 49.53 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 49.53 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 49.53 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5b7fde6-3565-4abf-b8f5-ae417a4ae6cc")
 		)
@@ -2375,7 +2469,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "R12")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2391,7 +2485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2314a06d-8728-4674-b8ab-5541abd28205")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR053"
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -2441,7 +2535,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR064")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2457,7 +2551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53a72afe-1e68-4706-bc4d-67d890c7294b")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR061"
 			(at 105.41 154.94 0)
 			(effects
 				(font
@@ -2507,7 +2601,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR066")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2523,7 +2617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bec7440-0102-496a-89b4-cbfaf2e72700")
-		(property "Reference" "R11"
+		(property "Reference" "R4"
 			(at 59.69 106.68 90)
 			(effects
 				(font
@@ -2566,6 +2660,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 59.69 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.69 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 59.69 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a787e2d5-fe3c-441b-8f19-e09c8bbfec78")
 		)
@@ -2575,7 +2696,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "R11")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72e91179-b7c9-41a5-af45-e918f027be7e")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR054"
 			(at 114.3 96.52 0)
 			(effects
 				(font
@@ -2641,7 +2762,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR061")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2657,7 +2778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73a26b8b-ab0d-488f-9d7b-71f169e9fd55")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR060"
 			(at 134.62 147.32 0)
 			(effects
 				(font
@@ -2707,7 +2828,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR070")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2723,7 +2844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "741b97f5-4a6c-4bf4-95ec-f73aa0da9fde")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR048"
 			(at 124.46 53.34 0)
 			(effects
 				(font
@@ -2773,7 +2894,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR057")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c0fc8f4-474e-4db1-8abe-8636b75d1f57")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR055"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -2839,14 +2960,109 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR065")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:R")
+		(at 77.47 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89aff03a-91f4-4769-b3e8-cdf5560e07ad")
+		(property "Reference" "R6"
+			(at 77.47 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 77.47 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 77.47 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 77.47 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 77.47 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a14a3a21-0747-4ed9-9c78-735348b7b869")
+		)
+		(pin "2"
+			(uuid "e0b4d33c-a370-4ae0-9b0d-528c10b604e8")
+		)
+		(instances
+			(project "Interface_DAC"
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 114.3 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2855,8 +3071,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9503402c-076a-4e49-a69c-b41293dd9d84")
-		(property "Reference" "C45"
-			(at 118.11 56.2609 0)
+		(property "Reference" "C40"
+			(at 118.11 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +3081,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 118.11 58.8009 0)
+			(at 118.11 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +3089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 62.23 0)
 			(effects
 				(font
@@ -2891,7 +3107,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 114.3 58.42 0)
 			(effects
 				(font
@@ -2909,7 +3152,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "C45")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2924,7 +3167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c998dbf-71f1-4cae-a76f-32e76520731d")
-		(property "Reference" "C46"
+		(property "Reference" "C41"
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -2969,6 +3212,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b62e4b49-d274-4980-bfc8-4a20ddab7fc0")
 		)
@@ -2978,7 +3248,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "C46")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2994,7 +3264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7256320-93d8-4bb3-b0a3-47aece6db74f")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR056"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -3044,7 +3314,73 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR067")
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a934bf24-fa59-4b50-b0b4-00250e30088d")
+		(property "Reference" "#PWR059"
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d409bbf4-6320-4cf9-bcd4-b0c3222b8564")
+		)
+		(instances
+			(project "Interface_DAC"
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3060,7 +3396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaacf376-4649-45cf-b3ab-6db35fe3a803")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 80.01 101.6 90)
 			(effects
 				(font
@@ -3103,6 +3439,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 80.01 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 80.01 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 80.01 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2bd40f13-145a-4031-8727-e78a9881778c")
 		)
@@ -3112,14 +3475,80 @@
 		(instances
 			(project ""
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "power:VBUS")
+		(at 137.16 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab5a5a10-ae69-4b69-8219-5688ba402ee6")
+		(property "Reference" "#PWR057"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ad4fb61-7f74-4cf5-b3a3-8881cf326a95")
+		)
+		(instances
+			(project "Interface_DAC"
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 114.3 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3129,7 +3558,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac7bcd26-7269-4169-a822-10ba40f3d9c9")
 		(property "Reference" "C43"
-			(at 118.11 79.1209 0)
+			(at 118.11 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3567,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 118.11 81.6609 0)
+			(at 118.11 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 85.09 0)
 			(effects
 				(font
@@ -3164,7 +3593,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -3189,7 +3645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 127 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3198,8 +3654,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af0c09b5-bc04-4c32-a0c6-7142d40a0306")
-		(property "Reference" "C49"
-			(at 130.81 99.4409 0)
+		(property "Reference" "C47"
+			(at 130.81 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,8 +3663,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
-			(at 130.81 101.9809 0)
+		(property "Value" "10u"
+			(at 130.81 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.9652 105.41 0)
 			(effects
 				(font
@@ -3234,7 +3690,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -3252,7 +3735,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "C49")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -3268,7 +3751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c88919-b080-48fb-82a0-d57fb76cf2af")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 128.27 132.08 90)
 			(effects
 				(font
@@ -3311,6 +3794,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 128.27 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 128.27 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba08f287-60ef-4a2a-af1b-d4a7d492ead8")
 		)
@@ -3320,7 +3830,7 @@
 		(instances
 			(project ""
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3335,7 +3845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfbb82c4-caea-4a69-aef4-54dfae59aa10")
-		(property "Reference" "C48"
+		(property "Reference" "C46"
 			(at 91.44 85.09 0)
 			(effects
 				(font
@@ -3380,6 +3890,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e783203-10bb-43b4-9657-a3fbefeb5888")
 		)
@@ -3389,7 +3926,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "C48")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -3405,7 +3942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cae9cea1-40a3-476b-a29b-d2fb7215a1f3")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR050"
 			(at 114.3 73.66 0)
 			(effects
 				(font
@@ -3455,7 +3992,73 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR062")
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb733a3d-d801-4726-af47-d0af7cf3eaa8")
+		(property "Reference" "#PWR058"
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e977706-4225-44e4-9db7-e2189076dde3")
+		)
+		(instances
+			(project "Interface_DAC"
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3471,7 +4074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfa0424f-5ff9-4b88-a56c-3e86d74f3624")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR049"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -3521,7 +4124,104 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR069")
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2884722-0d56-4585-aca1-38c21e5c8918")
+		(property "Reference" "C48"
+			(at 140.97 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 140.97 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 138.1252 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73ace4a7-2b69-4225-b19b-cef12971b569")
+		)
+		(pin "1"
+			(uuid "25c12c53-043d-44c0-85fe-3cfd476bde00")
+		)
+		(instances
+			(project "Interface_DAC"
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3537,7 +4237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da8a365c-691f-4a1d-9c0f-002a8c90feeb")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR051"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -3587,7 +4287,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR068")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3647,6 +4347,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d2ab4a9-32d0-4448-8d0d-5f98a580e207")
 		)
@@ -3672,7 +4399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e56c6ea4-2fe6-4b84-b6ec-896740ef6b60")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 111.3633 100.33 0)
 			(effects
 				(font
@@ -3709,6 +4436,33 @@
 			)
 		)
 		(property "Description" "24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28"
+			(at 104.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 104.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 104.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 104.14 123.19 0)
 			(effects
 				(font
@@ -3804,7 +4558,7 @@
 		(instances
 			(project ""
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3820,7 +4574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea0251e0-8005-461e-8d66-1741ac54da64")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR052"
 			(at 124.46 76.2 0)
 			(effects
 				(font
@@ -3870,14 +4624,14 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "#PWR063")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 78.74 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3886,8 +4640,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa73389e-c7e3-4a3b-aa56-d8407abf5eac")
-		(property "Reference" "C47"
-			(at 82.55 84.2009 0)
+		(property "Reference" "C45"
+			(at 82.55 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +4650,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 82.55 86.7409 0)
+			(at 82.55 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +4658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 79.7052 90.17 0)
 			(effects
 				(font
@@ -3922,7 +4676,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -3940,7 +4721,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/4fe518ed-419a-404a-8437-744bb00d2e80"
-					(reference "C47")
+					(reference "C45")
 					(unit 1)
 				)
 			)
