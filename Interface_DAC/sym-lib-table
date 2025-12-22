@@ -1,4 +1,4 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "utils")(type "KiCad")(uri "${KIPRJMOD}/utils/utils.kicad_sym")(options "")(descr ""))
+  (version 0)
+  (lib (name ".kicad_sch-altium-import")(type "KiCad")(uri "${KIPRJMOD}/.kicad_sch-altium-import.kicad_sym")(options "")(descr ""))
 )

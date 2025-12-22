@@ -4408,6 +4408,12 @@
 		(uuid "84337a44-c261-4f51-82d8-d32ce975a344")
 	)
 	(junction
+		(at 34.29 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84f1b6e9-5565-43c7-ac8c-96a5fc6209ca")
+	)
+	(junction
 		(at 43.18 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5290,6 +5296,16 @@
 			(type default)
 		)
 		(uuid "49176708-d7ad-4e20-9043-8f278c87a2a8")
+	)
+	(wire
+		(pts
+			(xy 24.13 151.13) (xy 34.29 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb9a202-dabc-489a-a2ac-d17f2ae9ff6d")
 	)
 	(wire
 		(pts
@@ -6303,6 +6319,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 163.83) (xy 34.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62658bc-5a9e-4449-8438-a78c855f06e8")
+	)
+	(wire
+		(pts
 			(xy 53.34 73.66) (xy 55.88 73.66)
 		)
 		(stroke
@@ -6683,6 +6709,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 161.29) (xy 24.13 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ed2532-c5ba-4101-af71-fab19b8b601b")
+	)
+	(wire
+		(pts
 			(xy 105.41 99.06) (xy 115.57 99.06)
 		)
 		(stroke
@@ -6920,6 +6956,16 @@
 			(type default)
 		)
 		(uuid "fde0624c-cf38-4418-9d6b-abc0681ec0d6")
+	)
+	(wire
+		(pts
+			(xy 24.13 153.67) (xy 24.13 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe158704-bd02-46d2-b97b-602524d3932b")
 	)
 	(wire
 		(pts
@@ -9252,6 +9298,103 @@
 			(project "Interface"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 24.13 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a40e894-dbbe-4c09-894b-f697961b239c")
+		(property "Reference" "R2"
+			(at 26.67 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2M"
+			(at 26.67 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 22.352 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 24.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 24.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 24.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d35d03cb-0c5d-4fcb-972e-51da501c5d1b")
+		)
+		(pin "2"
+			(uuid "fe999df3-3b41-45c8-b6f0-40ecf1d26d90")
+		)
+		(instances
+			(project "Interface_DAC"
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636"
+					(reference "R2")
 					(unit 1)
 				)
 			)

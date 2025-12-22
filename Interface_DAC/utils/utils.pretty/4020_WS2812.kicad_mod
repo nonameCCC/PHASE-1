@@ -64,7 +64,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "00d9778f-1026-4b6d-9d1a-913de0d495d6")
 	)
 	(fp_line
