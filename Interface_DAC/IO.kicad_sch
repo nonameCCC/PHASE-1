@@ -3896,7 +3896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04cbce39-7c2e-4f92-959a-e88653a7031d")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR050"
 			(at 36.83 78.74 0)
 			(effects
 				(font
@@ -3946,7 +3946,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR076")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3962,7 +3962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f026cdb-e21d-4a17-b32d-4566aa79e06d")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 56.7533 49.53 0)
 			(effects
 				(font
@@ -4034,6 +4034,78 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36246d81-6f74-4c41-b804-c9664982e972")
 		)
@@ -4073,7 +4145,7 @@
 		(instances
 			(project ""
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4089,7 +4161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3676a700-a272-44f0-b314-245724c2eefc")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR056"
 			(at 46.99 160.02 0)
 			(effects
 				(font
@@ -4139,7 +4211,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR082")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4227,6 +4299,78 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2540558d-04b4-46e3-88ef-37a36cdb7ccf")
 		)
@@ -4252,7 +4396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "400ab805-b6c1-4fc9-9c8b-0fa5bb6443c1")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR048"
 			(at 72.39 58.42 0)
 			(effects
 				(font
@@ -4302,7 +4446,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR074")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4318,7 +4462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "415a6695-5c55-42d7-b620-97c75e125e43")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 82.55 74.9299 0)
 			(effects
 				(font
@@ -4390,6 +4534,78 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6cba49c9-ef24-48ac-8f9b-94be363bba48")
 		)
@@ -4399,7 +4615,7 @@
 		(instances
 			(project ""
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4485,6 +4701,78 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A12"
 			(uuid "eee3a4dd-2870-4680-b6bc-289d56349209")
 		)
@@ -4555,7 +4843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68c4a1fb-1393-4ddd-99d3-4071aeaa5bb5")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR049"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -4605,7 +4893,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR075")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4621,7 +4909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81ab5103-d410-49b6-8440-d6a58c664871")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 172.3233 107.95 0)
 			(effects
 				(font
@@ -4693,6 +4981,78 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6c73cd06-26c1-4744-b2ba-e924c8785d70")
 		)
@@ -4714,7 +5074,7 @@
 		(instances
 			(project ""
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4730,7 +5090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86c16146-43eb-42b8-942e-0a5aeafc71a3")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR055"
 			(at 64.77 114.3 0)
 			(effects
 				(font
@@ -4780,7 +5140,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR081")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4797,7 +5157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b87270-9ae9-43da-bfeb-c0c8a03c8454")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 85.471 123.19 0)
 			(effects
 				(font
@@ -4867,6 +5227,78 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7b13145d-34f8-42e3-a883-f21b28441465")
 		)
@@ -4882,7 +5314,7 @@
 		(instances
 			(project ""
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4898,7 +5330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93ce4cb3-f96e-4b58-9454-1fc034629653")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR047"
 			(at 44.45 53.34 0)
 			(effects
 				(font
@@ -4948,7 +5380,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR073")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4964,7 +5396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96614f3c-c834-47e1-afb7-54639d56ab8d")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR046"
 			(at 44.45 35.56 0)
 			(effects
 				(font
@@ -5014,7 +5446,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR072")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5100,6 +5532,78 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b32a3a60-bd80-438d-8e58-2a77b23b3f58")
 		)
@@ -5127,7 +5631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3f3a3a6-2ef1-42d0-8df0-239db7f89795")
-		(property "Reference" "C57"
+		(property "Reference" "C34"
 			(at 46.99 39.37 0)
 			(effects
 				(font
@@ -5199,6 +5703,78 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f8b5eab-7dd0-4982-ba57-c5c9888a5ea1")
 		)
@@ -5208,7 +5784,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "C57")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -5224,7 +5800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca2e8233-5eb4-4a15-9cd1-27eac4e1b4f0")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR054"
 			(at 144.78 91.44 0)
 			(effects
 				(font
@@ -5274,7 +5850,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR080")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5290,7 +5866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b9c95e-182b-4e08-ad34-bca4046b9ac0")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR053"
 			(at 80.01 88.9 0)
 			(effects
 				(font
@@ -5340,7 +5916,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR079")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5356,7 +5932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea3202fa-9111-4825-a022-94e9f886b103")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR052"
 			(at 54.61 86.36 0)
 			(effects
 				(font
@@ -5406,7 +5982,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR078")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5492,6 +6068,78 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d68a3183-4d04-40f2-9a27-d04dabcbf14c")
 		)
@@ -5523,7 +6171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9133424-ef51-43b1-98ee-cf0b25150f14")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR051"
 			(at 72.39 81.28 0)
 			(effects
 				(font
@@ -5573,7 +6221,7 @@
 		(instances
 			(project "Interface_DAC"
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
-					(reference "#PWR077")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5651,6 +6299,78 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 144.78 69.85 0)
 			(effects
 				(font
