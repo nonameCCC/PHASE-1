@@ -4278,6 +4278,12 @@
 		(uuid "195eda3d-2b5b-41b3-b548-7478ee7026eb")
 	)
 	(junction
+		(at 237.49 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f65342-f41a-4bab-8618-8116f1fdec85")
+	)
+	(junction
 		(at 194.31 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5190,6 +5196,16 @@
 			(type default)
 		)
 		(uuid "e8cd8843-9e7b-45be-aa0e-c79f691f7f93")
+	)
+	(wire
+		(pts
+			(xy 237.49 31.75) (xy 237.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e974b466-a31e-49f3-91b4-002649a13f19")
 	)
 	(wire
 		(pts
@@ -7448,6 +7464,72 @@
 			(project ""
 				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 237.49 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "675a535f-2d73-42cc-880b-c775738ea8ba")
+		(property "Reference" "#PWR098"
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 237.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94144af8-ef2a-4199-aaae-1824ad37b51b")
+		)
+		(instances
+			(project "Interface_DAC"
+				(path "/0e211ec1-40f7-401e-8406-03ff71d7b636/5d69970a-4a66-4f83-8db7-c703f3245971"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
